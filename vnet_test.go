@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pion/logging"
-	"github.com/pion/transport/test"
-	"github.com/pion/transport/vnet"
+	"github.com/carrotsong/logging"
+	"github.com/carrotsong/transport/test"
+	"github.com/carrotsong/transport/vnet"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -562,7 +562,7 @@ func TestStreamClose(t *testing.T) {
 }
 
 // this test case reproduces the issue mentioned in
-// https://github.com/pion/webrtc/issues/1270#issuecomment-653953743
+// https://github.com/carrotsong/webrtc/issues/1270#issuecomment-653953743
 // and confirmes the fix.
 // To reproduce the case mentioned above:
 // * Use simultaneous-open (SCTP)

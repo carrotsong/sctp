@@ -7,7 +7,7 @@ import (
 	"math"
 	"sync"
 
-	"github.com/pion/logging"
+	"github.com/carrotsong/logging"
 )
 
 const (

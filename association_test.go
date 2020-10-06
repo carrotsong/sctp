@@ -16,8 +16,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pion/logging"
-	"github.com/pion/transport/test"
+	"github.com/carrotsong/logging"
+	"github.com/carrotsong/transport/test"
 	"github.com/stretchr/testify/assert"
 )
 

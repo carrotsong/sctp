@@ -8,8 +8,8 @@ import (
 	"net"
 	"time"
 
-	"github.com/pion/logging"
-	"github.com/pion/sctp"
+	"github.com/carrotsong/logging"
+	"github.com/carrotsong/sctp"
 )
 
 func main() {
